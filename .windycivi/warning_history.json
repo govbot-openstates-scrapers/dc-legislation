@@ -7,5 +7,13 @@
       "10:05:29 WARNING openstates: no session provided, using active sessions: {'26'}",
       "10:16:32 WARNING openstates: Skipping bill B26-0260 which is listed as broken (returning 500 when we request its details)"
     ]
+  },
+  "2026-10-23": {
+    "warning_count": 0,
+    "error_count": 3,
+    "skipped_count": 0,
+    "sample_warnings": [],
+    "failure_type": "UNKNOWN",
+    "error_summary": "    report = do_update(args, other, juris) "
   }
 }
