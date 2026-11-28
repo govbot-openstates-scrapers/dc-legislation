@@ -15,5 +15,16 @@
     "sample_warnings": [],
     "failure_type": "UNKNOWN",
     "error_summary": "    report = do_update(args, other, juris) "
+  },
+  "2026-11-28": {
+    "warning_count": 2,
+    "error_count": 1,
+    "skipped_count": 0,
+    "sample_warnings": [
+      "12:29:27 WARNING openstates: no session provided, using active sessions: {'26'}",
+      "12:41:01 WARNING openstates: Skipping bill B26-0260 which is listed as broken (returning 500 when we request its details)"
+    ],
+    "failure_type": "NONE",
+    "error_summary": ""
   }
 }
